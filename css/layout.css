@@ -1,0 +1,63 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/* Buttons */
+.btn {
+  width: 150px;
+  padding: 10px 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 15px 0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 2px solid #f6aa1c;
+  border-radius: 3px;
+  color: #f6aa1c;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #f6aa1c;
+  border: 2px solid #f6aa1c;
+  border-radius: 3px;
+  color: #fffaf0;
+  transform: scale(0.9);
+}
+
+.btn-primary:active {
+  background-color: #f6aa1c;
+  border: 2px solid #f6aa1c;
+  border-radius: 3px;
+  color: #fffaf0;
+  transform: scale(0.9);
+}
+
+.btn-secondary {
+  background-color: #e54b4b;
+  border: 2px solid #e54b4b;
+  color: #fffaf0;
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border: 2px solid #e54b4b;
+  color: #e54b4b;
+  transform: scale(0.9);
+}
+
+.btn-secondary:active {
+  background-color: transparent;
+  border: 2px solid #e54b4b;
+  color: #e54b4b;
+  transform: scale(0.9);
+}
