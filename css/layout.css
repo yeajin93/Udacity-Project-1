@@ -1,9 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
 	font-family: 'Noto Sans', sans-serif;
 	text-align: center;
 }
 
-p, ul {
+p, ul{
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 0.9em;
 	margin: 0.75em;
@@ -24,7 +24,7 @@ h2, em{
 }
 
 /* Buttons */
-.btn {
+.btn{
   width: 130px;
   padding: 10px 0;
   font-family: 'Noto Sans', sans-serif;
@@ -38,7 +38,7 @@ h2, em{
   display: inline-block;
 }
 
-.btn-primary {
+.btn-primary{
   background-color: transparent;
   border: 2px solid #f6aa1c;
   border-radius: 3px;
@@ -46,7 +46,7 @@ h2, em{
   transition: all 0.3s;
 }
 
-.btn-primary:hover {
+.btn-primary:hover{
   background-color: #f6aa1c;
   border: 2px solid #f6aa1c;
   border-radius: 3px;
@@ -54,7 +54,7 @@ h2, em{
   transform: scale(0.9);
 }
 
-.btn-primary:active {
+.btn-primary:active{
   background-color: #f6aa1c;
   border: 2px solid #f6aa1c;
   border-radius: 3px;

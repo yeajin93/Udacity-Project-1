@@ -1,6 +1,6 @@
 /* footer */
 
-footer {
+footer{
 	grid-area: ft;
 	text-align: center;
 	background-color: #565656;
@@ -8,7 +8,7 @@ footer {
 	padding-top: 35px;
 }
 
-.fab {
+.fab{
 	padding: 5px;
 	color: #ffffff;
 	size: 10px;
