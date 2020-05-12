@@ -1,0 +1,163 @@
+@import "layout.css";
+@import "navigation.css";
+@import "footer.css";
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #f6aa1c !important;
+}
+
+a:active{
+	text-decoration: none;
+}
+
+a:visited{
+	color: solid black;
+}
+
+.social-icon{
+	padding: 5px;
+	color: black;
+	size: 10px;
+}
+
+.social-icon:hover{
+	color: #f6aa1c !important;
+}
+
+/* Anything smaller than first breakpoint 600px */
+.container{
+	display: grid;
+	grid-template-rows: 60px 450px auto auto;
+	grid-template-columns: 100%;
+	grid-template-areas: 
+	"nav"
+	"hd"
+	"main"
+	"sd"
+	"ft";
+}
+
+.header{
+	display: grid;
+	grid-area: hd;
+	background-image: url('../Images/hero-image2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/*Place text in the header*/
+
+.header-text{
+	font-size: 2em;
+	background-color: rgba(255, 255, 255, 0.30);
+	padding: 50px;
+	margin: 50px;
+	text-align: center;
+}
+
+.content{
+	display: flex;
+	grid-area: main;
+	justify-content: center;
+	align-items: center;
+	align-self: flex-start;
+	flex-direction: column;
+	text-align: center;
+	padding: 30px;
+}
+
+#content-desc{
+	max-width: 600px;
+}
+
+.sidebar{
+	display: flex;
+	grid-area: sd;
+	justify-content: center;
+	align-self: flex-start;
+	flex-direction: column;
+	text-align: center;
+	margin: 30px;
+}
+
+#social{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.author-img{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	border-radius: 50%;
+	width: 100%;
+	height: auto;
+	min-width: 100px;
+	max-width: 200px;
+	object-fit: cover;
+	padding: 20px;
+}
+
+#author-desc{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.sidebar-img{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	border-radius: 50%;
+	width: 100%;
+	height: auto;
+	min-width: 100px;
+	max-width: 200px;
+	object-fit: cover;
+	padding-bottom: 20px;
+}
+
+.blog-img{
+	padding: 30px;
+	max-width: 600px;
+}
+/* Small to Medium Screens */
+@media(min-width: 700px) and (max-width: 800px){
+  .container{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows:60px 450px auto auto;
+    grid-template-areas:
+    "nav nav"
+    "hd hd"
+    "main main sd"
+    "ft ft";
+  }
+}
+
+/* Large Screens */
+@media(min-width:1161px){
+  .container{
+  	display:grid;
+  	grid-template-columns: 70% auto;
+    grid-template-rows:40px 450px auto auto;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "hd hd hd hd"
+    "main main main sd"
+    "ft ft ft ft";
+  }
+
+  .sidebar{
+  	border-left: 2px solid #f2f2f2;
+  }
+}

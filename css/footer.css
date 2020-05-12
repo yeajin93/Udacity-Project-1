@@ -1,0 +1,23 @@
+/* footer */
+
+footer {
+	grid-area: ft;
+	text-align: center;
+	background-color: #565656;
+	height: 100px;
+	padding-top: 35px;
+}
+
+.fab {
+	padding: 5px;
+	color: #ffffff;
+	size: 10px;
+}
+
+.fab:hover{
+	color: #f6aa1c !important;
+}
+
+.footer-text{
+	color: #ffffff !important;
+}
